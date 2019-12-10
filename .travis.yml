@@ -13,3 +13,8 @@ jdk: oraclejdk8
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku:git
+  username:
+    secure:
